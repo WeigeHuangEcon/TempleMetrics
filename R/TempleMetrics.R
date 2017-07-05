@@ -16,5 +16,5 @@ helloWorld <- function(other=NULL) {
 }
 
 # see what happens
-    
+# cool! That's how github works   
 
