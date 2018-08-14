@@ -17,7 +17,7 @@ library(pbapply)
 setwd("/Users/weigehuang/Dropbox/LocalIGE/data")
 dta <- read.csv("IGMdata.csv")
 
-## local linear smooth varying coefficient model
+# local linear smooth varying coefficient model
 ll.svc <- function(t, Y, T, Xmat, h) {
   X <- cbind(Xmat, (T - t)*Xmat)
   y <- as.matrix(Y)
